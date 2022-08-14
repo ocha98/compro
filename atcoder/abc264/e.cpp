@@ -60,7 +60,7 @@ int main(){
 
   UnionFind uf(n+1);
 
-  for(int i = 0;i < q; ++i){
+  for(int i = 0;i < e; ++i){
     if(stx.count(i))continue;
     uf.unite(uv[i].u, uv[i].v);
   }
