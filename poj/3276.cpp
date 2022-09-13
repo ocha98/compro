@@ -9,7 +9,7 @@ int n;
 int cows[MAX_N]; // f:0 b:1
 
 int calc(int k){
-    int f[MAX_N] = {}; 
+    int f[MAX_N] = {};
     int count = 0;
     int sum = 0;
 
@@ -45,7 +45,7 @@ int main(){
         char c;
         cin >> c;
         if(c == 'F'){
-            cows[i] = 0; 
+            cows[i] = 0;
         }else{
             cows[i] = 1;
         }

@@ -15,7 +15,7 @@ int main(){
         num--;
         n[num]++;
     }
-    
+
     static int dp[MAX_T+1][MAX_A+1] = {};
     for(int i = 0;i <= MAX_T; ++i){
         dp[i][0] = 1;

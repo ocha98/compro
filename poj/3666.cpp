@@ -21,7 +21,7 @@ int solve(int n, int a[]){
         for(int j = 0;j < n; ++j){
             cost = min(cost, dp[i][j]);
             dp[i+1][j] = cost + abs(a[i] - h[j]);
-        }   
+        }
     }
 
     int retu = INF;

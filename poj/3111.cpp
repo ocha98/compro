@@ -45,9 +45,9 @@ int main(){
     sort(p.begin(), p.end());
 
     cout << p[n-1].second;
-    for(int i = n-2;i  >= n-k; --i){  
+    for(int i = n-2;i  >= n-k; --i){
         cout << " " << p[i].second;
     }
     cout << endl;
-    
+
 }

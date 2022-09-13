@@ -35,7 +35,7 @@ int main(){
         if(x-1 >= 0)des[y][x-1] = min(t, des[y][x-1]);
     }
 
-    
+
     int dx[] = {1, -1, 0, 0};
     int dy[] = {0, 0, 1, -1};
     queue<Point> que;
@@ -54,7 +54,7 @@ int main(){
         if(time[p.y][p.x] >= des[p.y][p.x]){
             continue;
         }
-        
+
         for(int i = 0;i < 4; ++i){
             int nx = p.x + dx[i];
             int ny = p.y + dy[i];
@@ -62,7 +62,7 @@ int main(){
             if(time[ny][nx] != INF)continue;
 
             time[ny][nx] = time[p.y][p.x] + 1;
-            que.push(Point(ny, nx));   
+            que.push(Point(ny, nx));
         }
     }
 

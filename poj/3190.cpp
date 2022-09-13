@@ -15,7 +15,7 @@ struct Stall{
     Stall(int room, int end):room(room), end(end){}
 
     bool operator > (const Stall& s) const{
-        return end > s.end; 
+        return end > s.end;
     }
 };
 

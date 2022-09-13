@@ -50,7 +50,7 @@ void dfs(int y, int x, int count){
 
 int main(){
 
-    
+
     cin >> w >> h;
     while(!(w == 0 && h == 0)){
         for(int i = 0;i < h; ++i){

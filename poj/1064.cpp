@@ -15,7 +15,7 @@ bool judge(double x){
     for(int i = 0;i < n; ++i){
         count += (int)(a[i]/x);
     }
-    return count >= k;    
+    return count >= k;
 }
 
 int main(){

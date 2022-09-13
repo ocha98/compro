@@ -16,7 +16,7 @@ int main(){
     }
 
     int n = all.size();
-    int r = 0, count = 0; 
+    int r = 0, count = 0;
     int ans = p+1;
     map<int,int> mp;
 

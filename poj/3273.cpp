@@ -21,7 +21,7 @@ int main(){
                 count = 1e9;
                 break;
             }
-            
+
             sum += a[i];
             if(sum > mid){
                 count++;
@@ -37,6 +37,6 @@ int main(){
     }
 
     cout << ok << endl;
-    
+
     return 0;
 }

@@ -2,7 +2,7 @@
 #include <vector>
 #include <math.h>
 using namespace std;
- 
+
 const int MAX_N = 1e5;
 
 struct WeightedUnionFind{
@@ -94,7 +94,7 @@ int main(){
             }else{// query == D
                 uf.merge(a, b, 1);
             }
-        }        
+        }
     }
     return 0;
 }

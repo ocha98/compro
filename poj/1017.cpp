@@ -45,7 +45,7 @@ int main(){
         }
 
         if(end)break;
-        
+
         cout << solve(p) << endl;
     }
 

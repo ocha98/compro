@@ -6,7 +6,7 @@ using namespace std;
 struct Edge{
     int from, to, cost;
     Edge(){}
-    
+
     bool operator<(const Edge &a)const{
         return cost < a.cost;
     }

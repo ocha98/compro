@@ -28,7 +28,7 @@ int main(){
         ans += time * td[i].second;
         time += td[i].first*2;
     }
-    
+
     cout << ans << endl;
 
     return 0;

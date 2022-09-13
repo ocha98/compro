@@ -38,7 +38,7 @@ int main(){
             ng = mid;
         }
     }
-    
+
     cout << ok << endl;
 
     return 0;

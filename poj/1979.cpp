@@ -47,14 +47,14 @@ int main(){
                 int nx = x + dx[i];
                 int ny = y + dy[i];
 
-                if(nx < 0 || nx >= w || 
+                if(nx < 0 || nx >= w ||
                    ny < 0 || ny >= h)continue;
 
                 if(s[ny][nx] == '#')continue;
                 if(flag[ny][nx])continue;
                 count++;
                 flag[ny][nx] = true;
-                que.push(pair<int,int>(ny, nx));                
+                que.push(pair<int,int>(ny, nx));
             }
         }
 

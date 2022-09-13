@@ -24,13 +24,13 @@ double calc(int t1){
     }
 }
 
-void solve(){    
+void solve(){
     cin >> n >> h >> r >> t;
     double ans[MAX_N];
     for(int i = 0;i < n; ++i){
         ans[i] = calc(t-i);
     }
-    
+
     sort(ans, ans+n);
     for(int i = 0;i < n; ++i){
         ans[i] += 2*r*i/100.0;

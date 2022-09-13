@@ -41,7 +41,7 @@ int main(){
             total += cows[i].aid;
         }
     }
-    
+
     total = 0;
     que = priority_queue<int>();
     for(int i = c-1;i >= 0; --i){
